@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Support — Orbital Aegis</title>
+<meta name="description" content="Help for Orbital Aegis: how to play, how progression and stars work, why the screen has black bars on iPad, and how to get in touch.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23070b18'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%235fd4f0' stroke-width='2'/%3E%3Cellipse cx='16' cy='16' rx='12' ry='4.5' fill='none' stroke='%23ffb020' stroke-width='1.6' transform='rotate(-24 16 16)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">Orbital <span>Aegis</span></a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="eyebrow">Support</p>
+  <h1>Support</h1>
+  <p class="lede">A landscape tower defense game about holding the last orbital station. Seventy maps, three towers, six specializations, and no account to lose.</p>
+  <p class="updated">Version 1.0 · iOS 16 or later · iPhone and iPad</p>
+
+  <h2><span class="num">01</span>How to play</h2>
+  <ol class="plain">
+    <li><strong>Tap a hex slot</strong> beside the energy lane and pick a tower. Towers fire on their own — you will never aim.</li>
+    <li><strong>Upgrade with gold</strong> earned from kills. Levels 1 through 3 are straightforward stat boosts.</li>
+    <li><strong>At level 4, choose a specialization.</strong> Two cards appear and you pick one: Railgun Sniper or Pulse Gatling, Siege Mortar or Tesla Coil, Cryo Lance or Graviton Well. The choice is permanent for that tower.</li>
+    <li><strong>Enemies fight back.</strong> Towers have energy, and it drops when they are attacked. A destroyed tower is lost. Clearing a wave restores 50% energy to everything standing.</li>
+    <li><strong>Win by surviving the last wave.</strong> Your remaining lives set the star rating: 1 to 3.</li>
+  </ol>
+
+  <div class="callout callout--note">
+    <strong>Three things the game never tells you outright.</strong> Enemies get tougher the more towers you have built and the higher you have upgraded them — building wide has a cost. An enemy that reaches your base costs a life, and so does the Overlord reaching it. And there is a 2× speed button (▶) in the top-left HUD if a wave feels slow.
+  </div>
+
+  <h2><span class="num">02</span>Common questions</h2>
+
+  <div class="faq">
+
+    <details>
+      <summary>Map 2 is locked. How do I open it?</summary>
+      <div class="answer">
+        <p>Clear map 1 first. Maps unlock one at a time: finishing map N opens map N+1. "Clearing" means earning at least one star, which means surviving every wave on that map.</p>
+        <p>There is no separate unlock flag stored anywhere — the game checks your star rating each time the map screen opens, so a star and an unlocked map can never disagree.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I lost all my progress. Can it be restored?</summary>
+      <div class="answer">
+        <p>Unfortunately not. Progress is stored only on your device, in local storage. There is no account and no server copy, so if the app was deleted, the device was erased, or you restored to a new phone without an app-data transfer, the data is gone.</p>
+        <p>Restoring an iCloud or Finder device backup that was taken <em>after</em> your progress will bring it back. The game itself keeps no backup.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Why are there black bars above and below the game on my iPad?</summary>
+      <div class="answer">
+        <p>The game is designed for a 2.17:1 widescreen canvas — close to the shape of a modern iPhone held sideways. An iPad screen is 4:3, which is much taller, roughly 1.33:1 to 1.52:1 depending on the model.</p>
+        <p>Filling the iPad screen would mean cropping about 30% of the playfield off the sides, which would cut away towers, lanes, and the HUD. Fitting the whole canvas instead leaves letterbox bands: about 138 pt top and bottom on an 11-inch iPad, about 199 pt on a 13-inch. This is a deliberate choice, not a rendering bug. On iPhone the fit is exact and there are no bars.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>An ad appears every time I open the app.</summary>
+      <div class="answer">
+        <p>Yes — one app-open ad is shown when the game launches, and it can be dismissed after a few seconds with the close button in its corner. It is the only ad format in the game; there are no ads during play, no interstitials between levels, and no rewarded videos.</p>
+        <p>The very first launch after installing is always skipped, so you can try the game before any advertising appears.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I turn off the ads?</summary>
+      <div class="answer">
+        <p>Not currently. The ad pays for the maps. If you have a specific accessibility or privacy reason for needing an ad-free build, write to the address below and explain — it will be read.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>My tower was destroyed. Can I get it back?</summary>
+      <div class="answer">
+        <p>You can repair a damaged tower before it falls, or sell it for 60% of the gold you invested. Once a tower is destroyed it leaves rubble and you recover 25% of its cost.</p>
+        <p>Clearing a wave restores half the energy of every surviving tower, so holding on through a rough wave is often better than rebuilding from scratch.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What are stars for?</summary>
+      <div class="answer">
+        <p>Every victory pays 1 to 3 stars into a wallet, and replaying a map pays again. The Star Shop spends them on six consumable items — Supply Drop, Aegis Field, Nano Swarm, Overcharge, Rift Recall, and Command Uplink. Each run has per-item limits, so they help without trivializing a map.</p>
+        <p>Stars are also the progression currency: an empty star rating means "never cleared."</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>The game runs hot or the battery drains fast.</summary>
+      <div class="answer">
+        <p>The game renders pre-baked 3D sprite sheets, which is GPU-heavy on older devices. It does fall back to a lighter 2D renderer automatically when the device is in Low Power Mode or when it detects thermal pressure — so Low Power Mode is a reasonable way to play cooler.</p>
+        <p>If your device gets hot within minutes on an early map, please report it with your device model and iOS version.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Does it work offline?</summary>
+      <div class="answer">
+        <p>Yes, completely. The game needs no network to play — except that the launch ad needs a connection to load. With no network the app simply skips the ad and goes straight to the menu.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Is there a soundtrack or sound toggle?</summary>
+      <div class="answer">
+        <p>There are 25 synthesized sound effects and a sound toggle on the main menu. The game respects your device's silent switch — with the ringer off, it stays quiet. There is no music track.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Which devices are supported?</summary>
+      <div class="answer">
+        <p>iPhone and iPad running iOS 16.0 or later, in landscape orientation. The game does not rotate to portrait and does not support Split View or Stage Manager on iPad — it always takes the full screen.</p>
+        <p>Haptics are available on iPhone only; iPads have no vibration hardware, so the game disables that silently.</p>
+      </div>
+    </details>
+
+  </div>
+
+  <h2><span class="num">03</span>Reporting a problem</h2>
+  <p>Email is the fastest route. Please include:</p>
+  <ul class="plain">
+    <li>Your device model (for example "iPhone 12 Pro" or "iPad Pro 11-inch")</li>
+    <li>Your iOS version (<span class="mono">Settings → General → About</span>)</li>
+    <li>The map number and wave, if the problem happened during play</li>
+    <li>What you expected to happen, and what happened instead</li>
+  </ul>
+  <p>Screenshots help a great deal for anything visual.</p>
+
+  <div class="contact-card">
+    <p><strong>Orbital <span>Aegis</span></strong> — independent iOS developer</p>
+    <p>Email</p>
+    <p class="contact-address">CONTACT_EMAIL_PLACEHOLDER</p>
+    <p style="margin-top:14px;font-size:14.5px;color:var(--fg-muted)">Replies usually within a few days.</p>
+  </div>
+
+  <h2><span class="num">04</span>Privacy</h2>
+  <p>No account, no server, and no analytics. Progress stays on your device, and the only outside party is the ad network. The full detail is in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer class="site-foot">
+    <span>© 2026 Orbital Aegis</span>
+    <span><a href="privacy.html">Privacy</a> · <a href="index.html">Home</a></span>
+  </footer>
+
+</main>
+
+</body>
+</html>
