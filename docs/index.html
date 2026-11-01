@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Orbital Aegis — Support Hub</title>
+<meta name="description" content="Landing page for Orbital Aegis support: game overview, privacy policy and support links, and the app-ads.txt pointer for AdMob.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23070b18'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%235fd4f0' stroke-width='2'/%3E%3Cellipse cx='16' cy='16' rx='12' ry='4.5' fill='none' stroke='%23ffb020' stroke-width='1.6' transform='rotate(-24 16 16)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .hero { padding: 28px 0 8px; }
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 40px 0;
+  }
+  .stat-row div { background: var(--surface); padding: 18px 20px; }
+  .stat-row .n {
+    font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    font-size: 26px; font-weight: 500; letter-spacing: -.03em;
+    display: block; line-height: 1.1; color: var(--fg);
+  }
+  .stat-row .l {
+    font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--fg-muted); font-weight: 600; margin-top: 6px; display: block;
+  }
+  .link-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 26px 0 8px; }
+  .link-card {
+    display: block; text-decoration: none; background: var(--surface);
+    border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px;
+    box-shadow: var(--shadow); transition: border-color .15s ease, transform .15s ease;
+  }
+  .link-card:hover { border-color: var(--accent-line); transform: translateY(-1px); }
+  .link-card .t { display: block; font-weight: 700; color: var(--fg); margin-bottom: 4px; font-size: 16px; }
+  .link-card .d { display: block; font-size: 14px; color: var(--fg-muted); line-height: 1.5; }
+  @media (prefers-reduced-motion: reduce) { .link-card:hover { transform: none; } }
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">Orbital <span>Aegis</span></a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <p class="eyebrow">iOS · Landscape · Offline</p>
+    <h1>Everything you need for Orbital Aegis lives here.</h1>
+    <p class="lede">A widescreen tower defense game about holding the last orbital station against an alien fleet. Three tower types, six level-4 specializations, and seventy handcrafted maps that unlock one after another.</p>
+  </div>
+
+  <div class="stat-row">
+    <div><span class="n">70</span><span class="l">Maps</span></div>
+    <div><span class="n">3 + 6</span><span class="l">Towers</span></div>
+    <div><span class="n">8</span><span class="l">Enemy types</span></div>
+    <div><span class="n">25</span><span class="l">Sounds</span></div>
+  </div>
+
+  <div class="link-row">
+    <a class="link-card" href="support.html">
+      <span class="t">Support &amp; FAQ</span>
+      <span class="d">How to play, why maps are locked, iPad letterboxing, ad questions, and how to report a bug.</span>
+    </a>
+    <a class="link-card" href="privacy.html">
+      <span class="t">Privacy Policy</span>
+      <span class="d">No account, no server, no analytics. What stays on your device, and what AdMob sees.</span>
+    </a>
+  </div>
+
+  <h2><span class="num">01</span>About the game</h2>
+  <p>Alien fleets converge on your station along glowing energy lanes. You build towers on the hex slots beside those lanes, upgrade them through four tiers, and at level 4 choose which of two specialized weapons each tower becomes — Railgun Sniper or Pulse Gatling, Siege Mortar or Tesla Coil, Cryo Lance or Graviton Well.</p>
+  <p>Enemies fight back. Towers have energy, take damage, and can be destroyed; you can repair them mid-wave or sell them back for part of their cost. Clear a wave and every surviving tower recovers half its energy. The more towers you build, the harder the enemy pushes — a threat model that scales with your defenses rather than a fixed difficulty curve.</p>
+  <p>Commander abilities give you two buttons that matter: an orbital strike you aim by hand, and a stasis pulse that freezes the entire field for three seconds. Supply comets drop gold if you tap them. Elite enemies glow gold and pay double.</p>
+  <p>There are no accounts, no sign-in, and no purchases. All progress is stored on the device, and deleting the app deletes it.</p>
+
+  <h2><span class="num">02</span>For developers &amp; App Store</h2>
+  <p>If you are here to verify advertising authorization for this app, the <span class="mono">app-ads.txt</span> file is published at the root of this domain.</p>
+  <p>Bundle identifier: <span class="mono">com.suke.game</span>. Platform: iOS 16.0+, iPhone and iPad, landscape only.</p>
+
+  <footer class="site-foot">
+    <span>© 2026 Orbital Aegis</span>
+    <span><a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></span>
+  </footer>
+
+</main>
+
+</body>
+</html>
